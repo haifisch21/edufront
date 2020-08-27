@@ -1,10 +1,8 @@
 @import "variables";
 @import "mixins";
 @import "fonts";
-// reset
-@import "reset";
-// grid styles
-@import "grid";
-// main page styles
-@import "main";
-// separator style
+@import "reset"; /* Reset default css*/
+@import "grid"; /* Grid styles */
+@import "main"; /* Main page style */
+@import "svg-fonts"; /* SVG fonts style */
+
