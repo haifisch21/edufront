@@ -45,8 +45,7 @@ const paths = {
 
 const sources = {
     jsSrc: [
-        paths.js + 'main.js',
-        paths.js + 'form.js',
+        paths.js + 'main.js'
     ],
 
     libsJsSrc: [
@@ -198,7 +197,6 @@ gulp.task('watch', function () {
     gulp.watch(paths.pug + '**/*.pug', gulp.series('pug'));
     gulp.watch(paths.sass + '**/*.scss', gulp.series('sass'));
     gulp.watch(paths.js + '**/*.js', gulp.series('js'));
-    gulp.watch(paths.mailer + '**/*.*', gulp.series('copy:mailer'));
 });
 
 gulp.task('serve', function () {
@@ -219,7 +217,7 @@ gulp.task('serve', function () {
 
 gulp.task('build', gulp.series(
     'clean',
-    gulp.parallel('pug', 'sass', 'js', 'img', 'fonts', 'libsCss', 'libsJs', 'copy:mailer', 'copy:util')
+    gulp.parallel('pug', 'sass', 'js', 'img', 'fonts', 'libsCss', 'libsJs')
 ));
 
 gulp.task('default', gulp.series('build', gulp.parallel('watch', 'serve')));
