@@ -1,4 +1,26 @@
-.ss{
-  font-size: 16px;
-  color: red;
+.wrap-block{
+  &__logo-link{
+    text-decoration: none;
+  }
+}
+.logo-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 2.5em;
+  margin-left: 4em;
+}
+.logo-text{
+  &__name{
+    font-family: "Quicksand";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    color: $cornflower;
+  }
+}
+.logo-img{
+  font-size: 25px;
+  color: $cornflower;
+  padding-right: 1em;
 }
