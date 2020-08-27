@@ -1,11 +1,10 @@
 //- Basic layout
 mixin base-page(page)
     doctype html
-    html(lang = "ru")
+    html(lang = "en")
         head
             include ../meta/_head
         body
             if block
                 block
-            include ../components/_footer
             include ../meta/_scripts
