@@ -1,17 +1,18 @@
 include ../../../node_modules/bemto.pug/bemto
 include ../components/_vars
 
-+b.wrap-block
-    +e.A(href="#").logo-link
-        +b.logo-block
-            +b.logo-img
-                +b.icon-icon-calendar
-            +b.logo-text
-                +e.P.name edufront
-+b.wrap-block
-    +b.menu-list
-        each item in menuButton
-            +b.menu-item
-                +e.A(href=''+item.link)
-                    +b(class=''+ item.img)
-                    +e.P.text=item.text
+.menu-block
+    +b.wrap-block
+        +e.A(href="#").logo-link
+            +b.logo-block
+                +b.logo-img
+                    +b.icon-icon-calendar
+                +b.logo-text
+                    +e.P.name edufront
+    +b.wrap-block
+        +b.nav-block
+                each item in menuButton
+                    +e.A(href=''+item.link).link
+                        +b.list-group
+                            +b(class=''+ item.img).menu-img
+                            +e.P.text=item.text

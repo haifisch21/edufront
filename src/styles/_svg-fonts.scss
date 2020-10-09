@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('/fonts/icomoon.eot?r3fojr');
-  src:  url('/fonts/icomoon.eot?r3fojr#iefix') format('embedded-opentype'),
-  url('/fonts/icomoon.ttf?r3fojr') format('truetype'),
-  url('/fonts/icomoon.woff?r3fojr') format('woff'),
-  url('/fonts/icomoon.svg?r3fojr#icomoon') format('svg');
+  src:  url('/fonts/icomoon.eot?68z8nu');
+  src:  url('/fonts/icomoon.eot?68z8nu#iefix') format('embedded-opentype'),
+  url('/fonts/icomoon.ttf?68z8nu') format('truetype'),
+  url('/fonts/icomoon.woff?68z8nu') format('woff'),
+  url('/fonts/icomoon.svg?68z8nu#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,89 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-hamburger:before {
+  content: "\e931";
+  color: #c3c9da;
+}
+.icon-courses:before {
+  content: "\e932";
+  color: #a5aec7;
+}
+.icon-home:before {
+  content: "\e933";
+  color: #a5aec7;
+}
+.icon-peoples:before {
+  content: "\e934";
+  color: #a5aec7;
+}
+.icon-classes:before {
+  content: "\e935";
+  color: #a5aec7;
+}
+.icon-files:before {
+  content: "\e936";
+  color: #a5aec7;
+}
+.icon-result .path1:before {
+  content: "\e937";
+  color: rgb(165, 174, 199);
+  opacity: 0.4;
+}
+.icon-result .path2:before {
+  content: "\e938";
+  margin-left: -0.9365234375em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.icon-result .path3:before {
+  content: "\e939";
+  margin-left: -0.9365234375em;
+  color: rgb(165, 174, 199);
+  opacity: 0.4;
+}
+.icon-result .path4:before {
+  content: "\e93a";
+  margin-left: -0.9365234375em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.icon-result .path5:before {
+  content: "\e93b";
+  margin-left: -0.9365234375em;
+  color: rgb(165, 174, 199);
+  opacity: 0.4;
+}
+.icon-result .path6:before {
+  content: "\e93c";
+  margin-left: -0.9365234375em;
+  color: rgb(165, 174, 199);
+  opacity: 0.4;
+}
+.icon-result .path7:before {
+  content: "\e93d";
+  margin-left: -0.9365234375em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.icon-result .path8:before {
+  content: "\e93e";
+  margin-left: -0.9365234375em;
+  color: rgb(165, 174, 199);
+  opacity: 0.4;
+}
+.icon-result .path9:before {
+  content: "\e93f";
+  margin-left: -0.9365234375em;
+  color: rgb(165, 174, 199);
+  opacity: 0.4;
+}
+.icon-result .path10:before {
+  content: "\e940";
+  margin-left: -0.9365234375em;
+  color: rgb(165, 174, 199);
+  opacity: 0.4;
+}
 .icon-icon-activity:before {
   content: "\e900";
 }

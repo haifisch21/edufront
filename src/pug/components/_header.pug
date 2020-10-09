@@ -1,2 +1,22 @@
 include ../../../node_modules/bemto.pug/bemto
 include ../components/_vars
+
+.header-block
+    +b.header-btn
+        +e.BUTTON(src="#").btn
+            +b.icon-hamburger.hamburger-icon
+    +b.header-nav
+        +b.page-title
+            +e.P.title Calendar
+        +b.page-nav
+            each item in headerNav
+                +e.A(href='' + item.link).link
+                    +e.P.text=item.text
+    +b.header-search
+        +e.INPUT(type='search' plaseholder='Search').search
+    +b.header-add
+        +e.BUTTON(src="#").btn
+            +b.icon-iconfinder_plus_2561372.plus
+    +b.header-user
+        +b.user-img
+            +b.icon-icon-user
